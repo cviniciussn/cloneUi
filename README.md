@@ -5,8 +5,9 @@
 - React
 - Typescript
 - Framer Motion
+* link: https://ceaseless-authority.surge.sh/
 
-* Ainda estamos trabalhando a responsividade
+*Ainda estou trabalhando a responsividade*
 
 # Imagens do produto inicial:
 
