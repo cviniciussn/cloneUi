@@ -26,7 +26,7 @@ function Second() {
   );
   const secondHeadOpacity = useTransform(
     scrollYProgress,
-    [0.308, 0.4, 0.41, 0.42],
+    [0.308, 0.4, 0.42, 0.435],
     [0, 1, 1, 0]
   );
   const thirdHeadOpacity = useTransform(

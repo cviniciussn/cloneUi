@@ -9,7 +9,7 @@ export const Section = styled.div`
   position: relative;
 
   .first {
-    background-color: red;
+    background-color: none;
     overflow: hidden;
 
     .offset {
@@ -17,7 +17,7 @@ export const Section = styled.div`
       height: 100%;
     }
 
-    .a {
+    .inner-a {
       background: url(${bg});
       background-size: cover;
       height: 100%;
@@ -77,35 +77,35 @@ export const Section = styled.div`
         }
       }
     }
-    .b {
+    .inner-b {
       background-color: black;
       width: 100%;
       height: 100%;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       flex-wrap: wrap;
       color: white;
       align-items: center;
       justify-content: center;
-      // padding: 10%;
       text-align: center;
       font-size: 30px;
       font-weight: 300;
       font-family: "Lato", sans-serif;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      /* padding-left: 200px;
-      padding-right: 200px; */
+      gap: 50px;
 
-      > div {
-        margin: 20px;
-      }
       img {
-        height: 10rem;
-        width: 10rem;
+        height: 7rem;
+        width: 7rem;
+      }
+
+      .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
       }
     }
-    .c {
+    .inner-c {
       background-color: #191919;
       width: 100%;
       height: 100%;
@@ -137,11 +137,52 @@ export const Section = styled.div`
   }
 
   .third {
-    background-color: yellow;
+    background-color: #cdf363;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 5vw;
+
+    .left-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-around;
+      gap: 10px;
+
+      span {
+        font-size: 26px;
+      }
+
+      .button {
+        width: 50%;
+      }
+    }
+
+    .right-banner {
+      height: 100%;
+      width: 60%;
+      > img {
+        width: 100%;
+        height: 100%;
+      }
+    }
   }
 
   .fourth {
+    display: none;
     background-color: blue;
+  }
+
+  @media screen and (max-width: 800px) {
+    .left-side {
+      width: 100%;
+    }
+
+    .right-side {
+      display: none;
+    }
   }
 `;
 

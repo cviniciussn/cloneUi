@@ -64,7 +64,7 @@ function First(): JSX.Element {
           y: offsetY,
         }}
       >
-        <div className="a">
+        <div className="inner-a">
           <motion.div
             className="left-side"
             style={{
@@ -97,40 +97,44 @@ function First(): JSX.Element {
           </div>
         </div>
 
-        <div className="b">
-          <div>
-            <img src={arte} alt="arte" />
-            <h2>ARTE</h2>
+        <div className="inner-b">
+          <div className="container">
+            <div>
+              <img src={arte} alt="arte" />
+              <h2>ARTE</h2>
+            </div>
+
+            <div>
+              <img src={ciencias} alt="ciencias" />
+              <h2>CIÊNCIAS</h2>
+            </div>
+
+            <div>
+              <img src={filosofia} alt="filosofia" />
+              <h2>FILOSOFIA</h2>
+            </div>
           </div>
 
-          <div>
-            <img src={ciencias} alt="ciencias" />
-            <h2>CIÊNCIAS</h2>
-          </div>
+          <div className="container">
+            <div>
+              <img src={gestao} alt="gestao" />
+              <h2>GESTÃO</h2>
+            </div>
 
-          <div>
-            <img src={filosofia} alt="filosofia" />
-            <h2>FILOSOFIA</h2>
-          </div>
+            <div>
+              <img src={historia} alt="historia" />
+              <h2>HISTÓRIA</h2>
+            </div>
 
-          <div>
-            <img src={gestao} alt="gestao" />
-            <h2>GESTÃO</h2>
-          </div>
-
-          <div>
-            <img src={historia} alt="historia" />
-            <h2>HISTÓRIA</h2>
-          </div>
-
-          <div>
-            <img src={psicologia} alt="psicologia" />
-            <h2>PSICOLOGIA</h2>
+            <div>
+              <img src={psicologia} alt="psicologia" />
+              <h2>PSICOLOGIA</h2>
+            </div>
           </div>
         </div>
 
-        <div className="c">
-          <img src={professores} alt="" />
+        <div className="inner-c">
+          <img src={professores} alt="grade professores" />
         </div>
       </motion.div>
     </Sticky>
