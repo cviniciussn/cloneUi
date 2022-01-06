@@ -7,7 +7,7 @@
 - Framer Motion
 * link: https://ceaseless-authority.surge.sh/
 
-*Ainda estou trabalhando a responsividade*
+Nota: *Ainda estou trabalhando a responsividade*
 
 # Imagens do produto inicial:
 
