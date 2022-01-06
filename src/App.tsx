@@ -1,7 +1,7 @@
 import React from "react";
 import GlobalStyles from "./styles/global";
 import { Main, Section, Sticky } from "./styles";
-import FirstAndSecond from "./components/FirstAndSecond";
+import Second from "./components/Second";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
 
       <Main style={{ height: "1610vh" }}>
         <Section style={{ height: "72.7%" }}>
-          <FirstAndSecond />
+          <Second />
         </Section>
 
         <Section style={{ height: "9.7%" }}>
