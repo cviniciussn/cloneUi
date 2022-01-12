@@ -1,5 +1,4 @@
 # Versão modificada da landing page da Casa do Saber
-### Esta versão visa aplicar conhecimentos de typescript, React 17 e deployment em busca de uma vaga no time de desenvolvedores desta casa
 
 ## Techs:
 - React
